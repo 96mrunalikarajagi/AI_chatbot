@@ -1,0 +1,124 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "Good morning",
+          "Good evening"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! What can I do for you?",
+          "Hey! How can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Take care"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "See you later!",
+          "Take care and stay safe!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "I appreciate it",
+          "Thanks a lot"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Happy to help!",
+          "Anytime!"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "I need help",
+          "Can you help me?",
+          "I need assistance",
+          "Help me please"
+        ],
+        "responses": [
+          "Sure! How can I assist you?",
+          "I'm here to help. What do you need assistance with?",
+          "Let me know how I can help you."
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "What's the weather like?",
+          "Tell me the weather",
+          "Is it going to rain today?",
+          "Weather forecast"
+        ],
+        "responses": [
+          "I can provide the weather forecast. Please tell me your location.",
+          "Let me know your city, and I'll fetch the weather details for you."
+        ]
+      },
+      {
+        "tag": "jokes",
+        "patterns": [
+          "Tell me a joke",
+          "Make me laugh",
+          "Do you know any jokes?"
+        ],
+        "responses": [
+          "Why don’t skeletons fight each other? They don’t have the guts!",
+          "Why did the scarecrow win an award? Because he was outstanding in his field!",
+          "What do you call cheese that isn't yours? Nacho cheese!"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "What's your name?",
+          "Who are you?",
+          "Introduce yourself"
+        ],
+        "responses": [
+          "I'm your friendly chatbot! How can I assist you today?",
+          "My name is Chatbot. I'm here to help you!"
+        ]
+      },
+      {
+        "tag": "hours",
+        "patterns": [
+          "What are your working hours?",
+          "When are you available?",
+          "What time can I reach you?"
+        ],
+        "responses": [
+          "I'm available 24/7 to assist you!",
+          "You can reach me anytime. I'm always here to help."
+        ]
+      },
+      {
+        "tag": "fallback",
+        "patterns": [
+          "I don't understand",
+          "Can you repeat that?",
+          "What do you mean?"
+        ],
+        "responses": [
+          "I'm sorry, I didn't catch that. Could you please rephrase?",
+          "I'm not sure I understand. Can you elaborate?"
+        ]
+      }
+    ]
+  }
+  
